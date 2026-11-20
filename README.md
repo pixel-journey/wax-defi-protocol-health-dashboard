@@ -3,7 +3,7 @@
 > **Trust Label:** `educational-reference`  
 > **Verification:** [VERIFICATION-LOG.md](VERIFICATION-LOG.md)  
 > **Status:** Educational pure-function reference + Deep documentation pass  
-> **Parent Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+> **Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 **One-sentence goal:** Derive simple, explainable health-style **labels** from three integer arguments — TVL, volume, and LP count — without reading any pool or claiming a full protocol-health system.
 
