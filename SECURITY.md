@@ -6,8 +6,8 @@
 | --- | --- |
 | TVL 0 | turnover is `null` (no divide by zero) |
 | Volume 0 and TVL 0 | no `volume-without-tvl` tag |
-| LP count 2 | `few-lps` |
-| LP count 3 | that tag is absent |
+| LP count **2** | `few-lps` |
+| LP count **3** | that tag is absent |
 | volume ≥ TVL with TVL > 0 | `volume-above-tvl` |
 | volume 0 with TVL > 0 | `no-turnover` |
 
@@ -33,4 +33,10 @@
 
 No network. No wasm. Labels only — never grades.
 
-[docs.wax.io](https://docs.wax.io/) · [retention suite](https://github.com/pixel-journey/wax-defi-retention-metric-suite) (different integer) · [Alcor range backtester](https://github.com/pixel-journey/wax-alcor-v2-range-efficiency-backtester) · [wash triad](https://github.com/pixel-journey/wax-wash-trading-deduplicator).
+| Sibling | Distinction |
+| --- | --- |
+| [loyalty scorecard](https://github.com/pixel-journey/wax-defi-loyalty-health-scorecard) | Multi-vector score |
+| [wash triad](https://github.com/pixel-journey/wax-wash-trading-deduplicator) | Soft wash flags |
+| [range backtester](https://github.com/pixel-journey/wax-alcor-v2-range-efficiency-backtester) | Fee product math |
+
+[docs.wax.io](https://docs.wax.io/).
